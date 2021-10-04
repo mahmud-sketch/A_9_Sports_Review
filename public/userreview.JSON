@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "user",
+    "review": "course is very well taught "
+  },
+  {
+    "id": 2,
+    "name": "RAM",
+    "review": "teacher is very well good "
+  },
+  {
+    "id": 3,
+    "name": "RAHIM",
+    "review": "course fee is very low "
+  },
+  {
+    "id": 4,
+    "name": "KARIM",
+    "review": "course is very well taught "
+  },
+  {
+    "id": 5,
+    "name": "NASIR",
+    "review": "course is very well taught "
+  },
+  {
+    "id": 6,
+    "name": "HASAN",
+    "review": "definitely u can laern from here "
+  }
+]
