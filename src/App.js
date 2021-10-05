@@ -3,16 +3,15 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './Cmponent/Header/Header';
 import Home from './Cmponent/Home/Home';
 import About from './Cmponent/About/About';
-import Courses from './Cmponent/Courses/Courses';
+import Sports from './Cmponent/Sports/Sports';
 import NotFound from './Cmponent/NotFound/NotFound';
 import Footer from './Cmponent/Footer/Footer';
 import UserReviews from './Cmponent/UserReviews/UserReviews';
-import CourseDetails from './Cmponent/Courses/Course/CourseDetails';
+import SportDetails from './Cmponent/SportDetails/SportDetails';
 
 function App() {
   return (
     <div className="App">
-
 
       <BrowserRouter>
         <Header></Header>
@@ -26,11 +25,11 @@ function App() {
           <Route exact path="/about">
             <About></About>
           </Route>
-          <Route exact path="/courses">
-            <Courses></Courses>
+          <Route exact path="/Sports">
+            <Sports></Sports>
           </Route>
-          <Route exact path="/course/:CourseId">
-            <CourseDetails></CourseDetails>
+          <Route exact path="/Sports/:id">
+            <SportDetails></SportDetails>
           </Route>
           <Route path="/userreviews">
             <UserReviews></UserReviews>
